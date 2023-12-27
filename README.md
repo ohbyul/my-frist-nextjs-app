@@ -1,12 +1,15 @@
 # NEXT JS APP
 
-nextjs 14version
-flowbite
-typeScript 
+
+- nextjs 14version
+- flowbite
+- typeScript 
 
 
-퍼블X디자인X
-server - supabase 연결 , localDB 연결 
+
+-- 퍼블X디자인X
+server > supabase 연결 / localDB 연결 
+
 
 - nextjs, typescript, supabase 연습및 테스트용 app
 
