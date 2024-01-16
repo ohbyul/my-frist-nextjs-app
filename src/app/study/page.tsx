@@ -3,7 +3,7 @@
 import { createContext, useContext } from 'react';
 
 const MyContext = createContext('');
-export default function page() {
+export default function Page() {
 
 
     return (

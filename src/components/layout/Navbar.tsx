@@ -6,8 +6,8 @@ import { FaBars, FaBuffer, FaTimes } from "react-icons/fa";
 //CSR = rsc , SSR = rfc
 const menus = [
     // { index: 1, name: 'Join', path: '/join' },
-    { index: 2, name: 'Board', path: '/board' },
-    { index: 3, name: 'DTX Notice', path: '/notice' },
+    { index: 2, name: 'Supabase Board', path: '/board' },
+    { index: 3, name: 'Server Notice', path: '/notice' },
     { index: 4, name: 'React', path: '/study' },
 ]
 
