@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXT JS APP
 
-## Getting Started
 
-First, run the development server:
+- nextjs 14version
+- flowbite
+- typeScript 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-- 퍼블X디자인X
+server > supabase 연결 / localDB 연결 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+- nextjs, typescript, supabase 연습및 테스트용 app
 
-To learn more about Next.js, take a look at the following resources:
+## home
+![20231227_171437](https://github.com/ohbyul/my_frist_nextjs_app/assets/79763173/8098d345-17c9-40b7-ac91-9719885226cf)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## localDB연결 server는 Nest js 기반
+![20231227_171450](https://github.com/ohbyul/my_frist_nextjs_app/assets/79763173/cec0bb14-b2f6-48c7-8b3e-53489ad8dc06)
 
-## Deploy on Vercel
+## supabase 연결 
+![20231227_171501](https://github.com/ohbyul/my_frist_nextjs_app/assets/79763173/39aba8a9-c5ea-4bea-bda8-f6c82e0e35ac)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## typeScript기반 연습용 코드
+![20231227_171521](https://github.com/ohbyul/my_frist_nextjs_app/assets/79763173/4b1b18b6-56bf-4067-ab97-6a39004b955f)
