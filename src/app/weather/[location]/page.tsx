@@ -11,7 +11,7 @@ type Props = {
 }
 
 
-// 동적 메타데이터 설장
+// 동적 메타데이터 설정
 export function generateMetadata({ searchParams }: Props) {
     return {
         title: `b-Weather-${searchParams.name}`,

@@ -14,7 +14,6 @@ export default async function Weather() {
     return (
         <div>
             <h1>날씨앱 메인</h1>
-            {/* <p>{time.dateTime}</p> */}
             <RevalidateButton tag={'time'} />
             <ul>
                 {
@@ -41,9 +40,9 @@ const Country = async ({ path, name, location }: country) => {
     const time = await getTime(res.location.tz_id)
 
     return (
-        <li>
-            <Link href={path} key={name}>
-                {name} / {res.current.condition.text} / 현재 시각 : {time.hour}시 {time.minute}분
+        <li key={name}>
+            <Link href={path} >
+                {name} / {res.current.condition.text} / 현재 시각 : {time.hour}시 {time.minute}분 {time.seconds}초
             </Link>
         </li>
     )
