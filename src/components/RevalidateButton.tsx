@@ -1,17 +1,15 @@
 "use client"
 
+import revalidate from "@/utiles/revalidate";
+
 type Props = {
     tag: string;
 }
 
 export default function RevalidateButton({ tag }: Props) {
     const handleClick = async () => {
-        const res = await fetch(`/api/revalidate?tag=${tag}`,
-            { method: 'POST' }
-        )
-
-        const result = res.json()
-        console.log(result);
+        const res = await revalidate(tag)
+        console.log(res);
 
     }
     return (

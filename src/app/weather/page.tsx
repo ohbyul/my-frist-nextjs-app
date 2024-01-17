@@ -20,7 +20,7 @@ export default async function Weather() {
                 {
                     data.map((item, idx) => {
                         return (
-                            <Country item={item} />
+                            <Country path={item.path} name={item.name} location={item.location} />
                         )
                     })
                 }
@@ -30,21 +30,20 @@ export default async function Weather() {
 }
 
 type country = {
-    index: number
+    // index: number
     path: string
     name: string
     location: string
 }
 
-const Country = async ({ item }: country) => {
-    const location: string = item.location
+const Country = async ({ path, name, location }: country) => {
     const res = await getCurrentWeather(location)
     const time = await getTime(res.location.tz_id)
 
     return (
         <li>
-            <Link href={item.path} key={item.name}>
-                {item.name} / {res.current.condition.text} / {time.dateTime}
+            <Link href={path} key={name}>
+                {name} / {res.current.condition.text} / 현재 시각 : {time.hour}시 {time.minute}분
             </Link>
         </li>
     )
