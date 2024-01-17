@@ -9,6 +9,7 @@ const menus = [
     { index: 2, name: 'Supabase Board', path: '/board' },
     { index: 3, name: 'Server Notice', path: '/notice' },
     { index: 4, name: 'React', path: '/study' },
+    { index: 5, name: 'Weather', path: '/weather' },
 ]
 
 const Navbar = () => {
